@@ -31,7 +31,7 @@ export class CartComponent implements OnInit {
     this.items = this.cartService.clearCart();
     this.checkoutForm.reset();
 
-    console.warn('your order has been submitted')
+    console.warn('your order has been submitted', customData);
   }
 
 }
